@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block content %}
+	<div class = "container"><h1>
+		The given statement is {{result}}
+	</h1>
+	</div>
+	<div class="border-top pt-3">
+		<small class="text-muted"> 
+			Want to have another go? <a class = "ml-2" href="{{ url_for('home') }}"><button class="btn btn-outline-info"> Try Again </button></a>
+		</small>
+	</div>
+{% endblock content %}
