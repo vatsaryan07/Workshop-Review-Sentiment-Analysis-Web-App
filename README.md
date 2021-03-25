@@ -8,4 +8,5 @@ For the same, I have used the IMDB 50k review dataset and attempted to shift the
 
 The construction and explanation of the same were done by me as Speaker during the course of the workshop held on 19-20th March 2021. For reference I have also included the Python Notebook used for the creation of the model. 
 
-Keep in mind that the model developed and techniques used were so used for ease of explanation and implementation for beginners. A more detailed approach and a more thorough model shall be coming soon!
+A newer model has been developed for the same, which uses Sequential Modelling to better the results achieved in the previous version. The Sequential model utilizes the Bidirectional LSTM cells to view the text as a sequence rather than a simple one hot encoding. 
+
